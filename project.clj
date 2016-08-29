@@ -9,5 +9,5 @@
                                   [amazonica "0.3.58"]]}}
   ;:aot :all
   :lein-release {:deploy-via :clojars}
-
+  :plugins [[s3-wagon-private "1.2.0"]]
   )
